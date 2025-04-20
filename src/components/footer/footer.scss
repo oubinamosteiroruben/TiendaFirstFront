@@ -1,0 +1,16 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #f8f9fa;
+        box-shadow: inset 0rem -0.2rem 1rem rgba(0, 0, 0, 0.1);
+        gap: 3rem;
+    }
+}

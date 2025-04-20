@@ -1,0 +1,24 @@
+.navbar {
+  padding: 1rem 2rem;
+  box-shadow: inset 0rem -0.2rem 1rem rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+}
+.navbar .navbar-brand {
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+  align-items: center;
+}
+.navbar .navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-links .nav-link {
+  background-color: lightblue;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: black;
+}
