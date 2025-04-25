@@ -1,12 +1,13 @@
 import React from 'react';
 import Construction from '../../components/construction/construction';
 import './home.css';
+import { ProgressSpinner } from 'primereact/progressspinner';
 
 function Home() {
     return (
         <div className="home">
-            <h1>Bienvenido a la tienda</h1>
             <div>
+                <ProgressSpinner />
                 <Construction />
             </div>
         </div>

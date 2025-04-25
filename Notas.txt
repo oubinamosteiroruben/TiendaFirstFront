@@ -1,0 +1,15 @@
+Iconos de lucide interesantes para el proyecto.
+
+Leaf → Para representar plantas en general.
+
+Flower → Para flores o sección de flores.
+
+TreePine → Para árboles pequeños o plantas más grandes.
+
+Sprout → Brote o nuevas plantas (ideal para "nuevas llegadas").
+
+Droplet → Agua, para sección de riego o cuidado de plantas.
+
+Sun → Luz solar (cuidado de la planta, o requisitos de sol).
+
+Plant → Ícono genérico de planta (recién lo agregaron y es hermoso).
