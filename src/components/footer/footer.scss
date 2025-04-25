@@ -3,14 +3,27 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #a8e6cf, #dcedc1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+    padding: 1rem 2rem;
+    color: var(--color-texto-principal);
+    font-size: 0.75rem;
+    a{
+        color: var(--color-texto-principal);
+        text-decoration: none;
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: #66bb6a;
+        }
+    }
 
-    .footer-content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem 2rem;
-        background-color: #f8f9fa;
-        box-shadow: inset 0rem -0.2rem 1rem rgba(0, 0, 0, 0.1);
-        gap: 3rem;
+    .linkedin-link{
+        position: relative;
+        top: 2px;
     }
 }
