@@ -7,7 +7,7 @@ function Footer(){
         <footer className="footer">
             <span>2025 Clorofeel.</span>
             <Cpu size={12} />
-            <span>Desarrollado por Ruben </span>
+            <span>Desarrollado por Rubén Oubiña</span>
             <a className="linkedin-link" href="https://www.linkedin.com/in/oubinamosteiroruben/" target="_blank">
                 <i className="pi pi-linkedin"></i>
             </a>
