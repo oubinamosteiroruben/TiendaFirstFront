@@ -1,17 +1,24 @@
 import React from "react";
-import iconShop from "../../assets/images/icon_shop.png";
+import { Leaf, Flower, TreePine, Sprout, Droplet, Sun } from 'lucide-react';
 import "./navbar.css";
 
 function Navbar() {
     return (
         <nav className="navbar">
+            <div className="navbar-left-side"></div>
             <div className="navbar-brand">
-                <img src={iconShop} alt="Tienda" className="navbar-brand" />
-                <span>Tienda</span>
+                <Sprout size={24} />
+                <h1>Clorofeel</h1>
+                <Sprout size={24} />
             </div>
-            <div className="navbar-links">
-                <a className="nav-link" href="/">Inicio</a>
+            <div className="navbar-right-side">
+                <div className="nav-links">
+                    <a href="/">Inicio</a>
+                    <a href="/detail">Detalles</a>
+                    <a href="/about">Sobre nosotros</a>
+                </div>
             </div>
+            
         </nav>
     );
 }
