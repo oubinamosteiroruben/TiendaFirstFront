@@ -14,7 +14,6 @@ function Navbar() {
             <div className="navbar-right-side">
                 <div className="nav-links">
                     <a href="/">Inicio</a>
-                    <a href="/detail">Detalles</a>
                     <a href="/about">Sobre nosotros</a>
                 </div>
             </div>

@@ -1,0 +1,9 @@
+// filepath: c:\Users\oubin\Documents\Proyectos\Repositorios\ReposTiendaFirst\TiendaFirst_Front\tienda-first-front\jsconfig.json
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "assets/*": ["assets/*"]
+        }
+    }
+}

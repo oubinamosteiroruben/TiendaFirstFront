@@ -1,0 +1,34 @@
+.top-ventas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.top-ventas .top-ventas-header {
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+.top-ventas .top-ventas-header .slider-container {
+  width: 100%;
+}
+.top-ventas .top-ventas-header .p-slider .p-slider-handle {
+  background: var(--color-texto-principal);
+  border-color: var(--color-texto-principal);
+}
+.top-ventas .top-ventas-header .p-slider .p-slider-handle:hover {
+  background: var(--color-texto-principal);
+  border-color: var(--color-texto-principal);
+}
+.top-ventas .top-ventas-header .p-slider .p-slider-range {
+  background: var(--color-verde-suave);
+}
+.top-ventas .products-grid {
+  display: grid;
+  gap: 2rem;
+  transition: all 0.3s ease;
+}
